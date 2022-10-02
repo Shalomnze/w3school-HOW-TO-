@@ -1,0 +1,39 @@
+.iconbar-v{
+    width: 100px;
+    background-color: black;
+}
+.iconbar-v a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    transition: 0.3 ease;
+    color: white;
+    font-size: 34px;
+}
+
+.iconbar-h{
+    width: 380px;
+    /* to take the full width of the device use 100% 
+    width: 100%; */
+    background-color: #555;
+    overflow: auto;
+}
+
+.iconbar-h a{
+    float: left;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s;
+    color: white;
+    font-size: 34px;
+    margin: 20px 20px;
+}
+.iconbar-h a:hover{
+
+    scale: 1.1;
+}
+.iconbar-v a:hover{
+
+    scale: 1.1;
+}
